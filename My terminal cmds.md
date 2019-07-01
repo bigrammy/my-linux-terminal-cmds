@@ -33,6 +33,7 @@ EG: android_kernel_nokia_3.1
 Now on your PC cd into the kernel-3.x folder and type the following.
 
 ```git init```
+
 Then type this add all cmd (Why they dont tell you this on github I have no idea)
 
 ```git add --all```
@@ -41,9 +42,10 @@ After this follow githubs instructions.
 
 ```git commit -m "first commit"```
 
-```git remote add origin git@github.com:bigrammy/android_kernel_nokia_3.1.git
-```
+```git remote add origin git@github.com:bigrammy/android_kernel_nokia_3.1.git```
+
 Then finally push it to github
+
 ```git push -u origin master```
 
 # Done
