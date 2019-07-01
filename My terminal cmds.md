@@ -25,6 +25,23 @@ The following cmd will decompress the ext4 to a raw image.
 
 ```sudo mount -t ext4 -o loop system.img.raw ~/working/mounted/```
 
+## Github Stuff
+# Add Kernel Source to github as example
+# Method
+Create a New Repository using your github home page.
+EG: android_kernel_nokia_3.1
+Now on your PC cd into the kernel-*.* folder and type the following.
+```git init```
+Then type this add all cmd (Why they dont tell you this on github I have no idea)
+```git add --all```
+This does what it says and adds all the files and folders in the kernel-*.* folder for uploading
+After this follow githubs instructions
+```git commit -m "first commit"```
+```git remote add origin git@github.com:bigrammy/android_kernel_nokia_3.1.git
+```
+Then finally push it to github
+```git push -u origin master```
+# Done
 
   
 
